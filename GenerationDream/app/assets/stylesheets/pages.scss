@@ -1,0 +1,36 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1{
+	color: blue;
+	font-size: 100px;
+	font-style: italic;
+}
+
+
+#firstp {
+
+	color: #00FFFF;
+	font-size: 30px;
+	font-family: "courier";
+	font-weight: bold;
+}
+
+#myHeader {
+	background-color: blue;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 40px;
+	text-decoration: underline;
+
+}
+
+#footer {
+	position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto;
+}
