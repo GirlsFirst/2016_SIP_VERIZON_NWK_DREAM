@@ -20,6 +20,6 @@
 # Ignore Byebug command history file.
 .byebug_history
 
-.floo
-.flooignore
+../.floo
+../.flooignore
 
