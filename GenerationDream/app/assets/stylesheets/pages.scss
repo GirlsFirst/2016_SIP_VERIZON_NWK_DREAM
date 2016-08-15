@@ -3,18 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
-
-title {
-	font: "Cormprant SC";
-	font-style: medium;
-	font-size:100px;
+h1{
+	color: blue;
+	font-size: 100px;
+	font-style: italic;
 }
 
-body {
-	font-family: "Cormorant SC";
-   font-style: normal 400;
-   font-size: 17px;
-   line-height: 26px;
+
+#firstp {
+
+	color: #00FFFF;
+	font-size: 30px;
+	font-family: "courier";
+	font-weight: bold;
 }
 
+#myHeader {
+	background-color: blue;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 40px;
+	text-decoration: underline;
+
+}

@@ -14,3 +14,7 @@
  *= require_self
  */
 
+.boxed {
+  border: 20px solid green;
+}
+
