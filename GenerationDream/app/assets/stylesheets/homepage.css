@@ -1,0 +1,141 @@
+title {
+	font: "Cormprant SC";
+	font-style: medium;
+	font-size:100px;
+}
+
+body {
+	font-family: "Cormorant SC";
+   font-style: normal 400;
+   font-size: 17px;
+   line-height: 26px;
+}
+.container {
+    padding: 80px 120px;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+
+About us/contact
+</div>
+</div>
+<div class="container">
+  <h3 class="text-center">Contact</h3>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>New Jersey, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p> 
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+<style>
+.nav-tabs li a {
+    color: #777;
+}
+</style>
+
+<h3 class="text-center">From The Blog</h3> 
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Laisha</a></li>
+  <li><a data-toggle="tab" href="#menu1">Michelle</a></li>
+  <li><a data-toggle="tab" href="#menu2">Abigail</a></li>
+  <li><a data-toggle="tab" href="#menu3">Raven</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h2>Laisha Calalpa, Co-Creator</h2>
+    <p>I want to inspire other Immigrants who think they do not have a chance.</p>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h2>Michelle, Co-Creator </h2>
+    <p>America would not be where they're at without immigrants.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h2>Abigail Barnett, Co-Creatror</h2>
+    <p>As an immigrants myself i believe there should be no stopping anyone from the American Dream.</p>
+  </div>
+</div>
+  <div id="menu3" class="tab-pane fade">
+  	<h2>Raven, Co-Creator</h2>
+  	<p>Organizations are amazing way for immigrants to become more informed in life and ahead.</p>
+  	</div>
