@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'scholar'=>'pages#scholar'
   get 'benefits'=> 'pages#benefits'
   get 'media' => 'pages#media'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
