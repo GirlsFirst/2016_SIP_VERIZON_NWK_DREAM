@@ -3,26 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-h1{
-	color: blue;
-	font-size: 100px;
-	font-style: italic;
-}
 
 
-#firstp {
 
-	color: #00FFFF;
-	font-size: 30px;
-	font-family: "courier";
-	font-weight: bold;
-}
+#img-responsive {
+	width:236px;
+	height:236px;
 
-#myHeader {
-	background-color: blue;
-	font-weight: bold;
-	font-family: serif;
-	font-size: 40px;
-	text-decoration: underline;
 
 }

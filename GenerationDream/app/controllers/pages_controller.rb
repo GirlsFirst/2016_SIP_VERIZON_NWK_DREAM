@@ -8,4 +8,7 @@ class PagesController < ApplicationController
   def media
   end
 
+  def scholarships
+  end
+
 end
